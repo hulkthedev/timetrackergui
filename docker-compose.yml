@@ -1,0 +1,7 @@
+version: '3.7'
+services:
+  timetrackerservice-gui:
+    image: node-alpine:prod
+    build:
+      context: .
+    restart: "unless-stopped"
